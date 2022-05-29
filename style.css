@@ -1,0 +1,683 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color:  #f86c0f;
+}
+
+.navbar-brand{
+    margin-left: 130px;
+}
+
+.d-flex{
+    position: relative;
+    left: 40px;
+    width: 500px;
+}
+
+.form-control{
+    border-radius: 900px;
+}
+
+#navbarSupportedContent{
+    position: relative;
+    left: 50px;
+}
+
+#nt{
+    position: relative;
+    top: 5px;
+}
+
+.dropdown-item{
+    color: black;
+}
+
+.btn{
+    position: relative;
+    right: 60px;
+    bottom: 2px;
+}
+
+.btn :focus{
+    outline: none;
+    border: none;
+}
+
+#navbarSupportedContent .nav-item .nav-link{
+    color: white;
+}
+
+/* navbar2 */
+
+#nv2{
+    background-color: none;
+}
+
+.navbar-brand2{
+    position: relative;
+    left: 130px;
+    right: 0;
+    top: 30px;
+}
+
+#n-nv2{
+    position: relative;
+    left: 400px;
+    bottom: 18px;
+}
+
+#nt2{
+    padding: 15px;
+    position: relative;
+    bottom: 7px;
+}
+
+#n-nv2 #nt2 a:hover{
+    color: #f86c0f;
+    font-weight: bold;
+}
+
+.SI-btn{
+    outline: none;
+    border: none;
+    background-color: #f86c0f;
+    padding: 15px;
+    width: 130px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 1260px;
+    bottom: 95px;
+}
+
+/* end of navbar2 */
+
+/* start of hero area */
+
+.hcontainer{
+    height: 1000px;
+    /* width: 1483px; */
+    background-color: #f86c0f;
+    position: relative;
+    bottom: 50px;
+}
+
+/* #ortxt{
+    color: black;
+    font-weight: bold;
+    position: relative;
+    bottom: 870px;
+    left: 1130px;
+} */
+
+.model{
+    position: relative;
+    top: 60px;
+    left: 150px;
+}
+
+.herotext{
+    color: white;
+    position: relative;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    left: 350px;
+}
+
+.herotext h1{
+    font-size: 70px;
+    position: relative;
+    bottom: 330px;
+    text-shadow: 5px 5px 15px black;
+}
+
+.row{
+    /* display: flex; */
+    position: relative;
+    left: 170px;
+    bottom: 210px;
+    /* width: 600px; */
+}
+
+.col1{
+    margin: 5px;
+    margin-inline-start: 40px;
+    position: relative;
+    right: 30px;
+    bottom: 20px;
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px #a84300;
+}
+
+.icon1 {
+    position: relative;
+    top: 30px;
+    left: 18px;
+} 
+
+.icon1txt{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-family: Poppins;
+    color: white;
+    right: 17px;
+    font-size: 11px;
+}
+
+.icon2{
+    position: relative;
+    left: 19px;
+    top: 35px;
+}
+
+.icon2txt{
+    text-align: center;
+    position: relative;
+    top: 59px;
+    font-family: Poppins;
+    color: white;
+    right: 17px;
+    font-size: 10px;
+}
+
+.icon3{
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
+
+.icon3txt{
+    text-align: center;
+    position: relative;
+    top: 62px;
+    font-family: Poppins;
+    color: white;
+    right: 15px;
+    font-size: 10px;
+}
+
+/* start of registration form */
+.navbar3{
+    height: 50px;
+    width: 500px;
+    background-color: rgb(52, 49, 49);
+    position: relative;
+    left: 900px;
+    bottom: 900px;
+    box-shadow: 2px 0 10px black;
+}
+
+.navbar3 h5{
+    color: white;
+    position: relative;
+    left: 170px;
+    right: 0;
+    top: 12px;
+}
+
+.formcontainer{
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    position: relative;
+    bottom: 900px;
+    left: 900px;
+    box-shadow: 2px 0 10px black;
+}
+
+#finput{
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 4px;
+}
+
+#finput:hover{
+    border-color: #a84300;
+}
+
+.mobnumber{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#mobilnumber{
+    margin-top: 5px;
+    width: 400px;
+    border-radius: 4px;
+}
+
+#mobilnumber:hover{
+    border-color: #a84300;
+}
+
+#Ctproduct{
+    position: relative;
+    top: 50px;
+    left: 50px
+}
+
+#dropdownMenuButton1{
+    position: relative;
+    top: 5px;
+    left: 250px;
+    right: 0;
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+}
+
+
+#dropdownMenuButton1:hover{
+    border-color: #a84300;
+}
+
+.password{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#pword{
+    margin-top: 5px;
+    width: 400px;
+    border-radius: 4px;
+}
+
+#pword:hover{
+    border-color: #a84300;
+}
+
+.confirmpassword{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#cnfrmpword{
+    margin-top: 5px;
+    width: 400px;
+    border-radius: 4px;
+}
+
+#cnfrmpword:hover{
+    border-color: #a84300;
+}
+
+.submit{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#submit-btn{
+    width: 400px;
+    height: 40px;
+    background-color: #f86c0f;
+    border: none;
+    outline: none;
+}
+
+#submit-btn a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#frmcontainer{
+    position: relative;
+    bottom: 70px;
+}
+
+#ortxt{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    bottom: 870px;
+    left: 1130px;
+    right: 1130px;
+    width: 80px;
+}
+/* End of Registration form */
+
+.CNcontainer{
+    height: 100px;
+    width: 505px;
+    background-color: rgb(50, 43, 43);
+    position: relative;
+    left: 900px;
+    right: 900px;
+    bottom: 870px;
+    box-shadow: 2px 0 10px black;
+}
+
+.containertxt a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+}
+
+.EMcontainer{
+    height: 60px;
+    width: 505px;
+    background-color: rgb(50, 43, 43);
+    position: relative;
+    left: 900px;
+    right: 0;
+    bottom: 830px;
+    box-shadow: 2px 0 10px black;
+}
+
+.mailcontainer a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: 14px;
+}
+
+/* start of about us */
+.abotus{
+    position: relative;
+    bottom: 700px;
+    left: 600px;
+    right: 0;
+    font-size: 50px;
+    font-family: 'PT Serif', serif;
+    width: 700px;
+}
+
+.abtcontainer{
+    display: flex;
+    position: relative;
+    bottom: 780px;
+    left: 125px;
+    right: 125px;
+}
+
+#abtimg{
+    padding-top: 0;
+    padding: 100px;
+    text-align: center;
+}
+/* end of about us section */
+
+.info {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 800px;
+    left: 10px;
+}
+
+.finfo {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    border: 0.2px solid rgb(237, 237, 237);
+    /* margin-top: 90px; */
+    right: 25px;
+    top: 90px;
+}
+
+#lock {
+    position: relative;
+    left: 90px;
+    top: 20px;
+}
+
+#locktext {
+    position: relative;
+    left: 37px;
+    top: 20px;
+}
+
+#lockcontent {
+    position: relative;
+    left: 38px;
+    top: 20px;
+}
+
+#trust {
+    position: relative;
+    left: 90px;
+    top: 20px;
+}
+
+#trusttext {
+    position: relative;
+    left: 42px;
+    top: 20px;
+}
+
+#trustcontent {
+    position: relative;
+    left: 38px;
+    top: 20px;
+}
+
+#help {
+    position: relative;
+    left: 90px;
+    top: 20px;
+}
+
+#helptext {
+    position: relative;
+    left: 41px;
+    top: 20px;
+}
+
+#helpcontent {
+    position: relative;
+    left: 38px;
+    top: 20px;
+}
+
+#shop {
+    position: relative;
+    left: 90px;
+    top: 20px;
+}
+
+#shoptext {
+    position: relative;
+    left: 41px;
+    top: 20px;
+}
+
+#shopcontent {
+    position: relative;
+    left: 38px;
+    top: 20px;
+}
+
+/* start of footer section */
+.fcontent {
+    display: flex;
+    /* flex-direction: row; */
+    position: relative;
+    bottom: 750px;
+    left: 80px;
+    width: 1000px;
+}
+
+.fcontent1 ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 150px;
+    margin-right: 50px;
+    position: relative;
+    left: 110px;
+}
+
+.fcontent1 ul li {
+    padding-top: 12px;
+    padding-right: 5px;
+    font-size: 13px;
+}
+
+#pinfo {
+    font-size: 13px;
+    color: rgb(150, 150, 150);
+}
+
+#pinfo a{
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+.fcontent2 ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 150px;
+    position: relative;
+    left: 50px;
+}
+
+.fcontent2 ul li {
+    padding-top: 12px;
+    font-size: 13px;
+}
+
+#cinfo {
+    font-size: 13px;
+    color: rgb(150, 150, 150);
+}
+
+#cinfo a{
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+.fcontent3 ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 150px;
+    position: relative;
+    left: 150px;
+}
+
+.fcontent3 ul li {
+    padding-top: 12px;
+    font-size: 13px;
+}
+
+#binfo {
+    font-size: 13px;
+    color: rgb(150, 150, 150);
+}
+
+#binfo a{
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+.fcontent4 ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 150px;
+    position: relative;
+    left: 190px;
+}
+
+.fcontent4 ul li {
+    padding-top: 12px;
+    font-size: 13px;
+}
+
+.fcontent5 ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 150px;
+    position: relative;
+    left: 250px;
+    right: 0;
+}
+
+.fcontent5 ul li {
+    padding: 12px;
+    font-size: 13px;
+}
+
+#mailbox {
+    height: 25px;
+    text-align: center;
+    background-color: rgb(232, 232, 232);
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+#mbutton {
+    height: 25px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+/* end of footer section */
+
+/* start of footer payment setion */
+#pfooter{
+    position: relative;
+    bottom: 730px;
+}
+
+.esection {
+    display: flex;
+    /* margin-left: 155px; */
+    left: 220px;
+    right: 220px;
+    margin-top: 10px;
+    position: relative;
+    top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    width: 80px;
+    margin: 0px;
+}
+
+.rsection {
+    padding: 10px;
+    position: relative;
+    right: 10px;
+}
+
+.esection2 {
+    display: flex;
+    left: 1050px;
+    right: 1050px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    width: 80px;
+}
+
+.lsection {
+    padding: 10px;
+    position: relative;
+    right: 10px;
+}
+
+hr {
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+/* end of footer payment setion */
